@@ -88,6 +88,13 @@ a{
     padding-left: 10px;
 }
 
+#onhovermail{
+    visibility: hidden;
+}
+#mailicon:hover ~ #onhovermail{
+    visibility: visible;
+}
+
 /* media queres */
 @media(max-width:780px){
     .grid-2{
