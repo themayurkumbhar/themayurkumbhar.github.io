@@ -2,6 +2,8 @@
 layout: default
 ---
 
-{% include about.md %}
+{% include about-me.md %}
+
+{% include professional.md %}
 
 <br>
