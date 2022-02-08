@@ -6,4 +6,6 @@ layout: default
 
 {% include professional.md %}
 
+{% include contact.md %}
+
 <br>
