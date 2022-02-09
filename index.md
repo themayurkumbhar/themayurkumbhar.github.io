@@ -6,6 +6,8 @@ layout: default
 
 {% include professional.md %}
 
+{% include education.md %}
+
 {% include contact.md %}
 
 <br>
