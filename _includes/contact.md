@@ -1,4 +1,4 @@
-## 📇 [Connect with Me!](#contact)
+## 📇 Connect with Me! {#contact}
 <a href="https://www.linkedin.com/in/mayurkumbhar/"><img align="left" alt="Mayur's LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"></a> &emsp;
 <a href="https://www.github.com/themayurkumbhar/"><img align="auto" alt="Mayur's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"></a> &emsp;
 <a href="https://twitter.com/themayurkumbhar"><img align="auto" alt="Mayur's' Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg"></a> &emsp;
