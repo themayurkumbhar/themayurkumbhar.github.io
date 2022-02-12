@@ -1,4 +1,4 @@
-# Education 🎓 
+# [Education](#education) 🎓 
 
 ## 🧑‍🎓 [BITS, Pilani](https://bits-pilani-wilp.ac.in/m-tech/software-engineering.php)
 ### M.Tech Computer Engineering

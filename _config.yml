@@ -3,6 +3,7 @@ description: Software Devloper 💻
 theme: jekyll-theme-slate
 relative_links:
   enabled: true
-  collections: true
+  collections: false
 plugins:
   - jekyll-relative-links
+  - jekyll-default-layout
