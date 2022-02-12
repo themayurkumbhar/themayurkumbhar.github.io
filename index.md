@@ -10,8 +10,8 @@ layout: default
 
 {% include contact.md %}
 
-{% for post in site.posts %}
-    [{{% post.title %}}]({{% post.url %}})
-{% endfor %}
+{% post 2022-02-12-getting-started-with-github-pages.md %}
+
+1. [Getting Started With GitHub Pages](_posts/2022-02-12-getting-started-with-github-pages.md)
 
 <br>
