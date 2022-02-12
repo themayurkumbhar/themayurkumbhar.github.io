@@ -12,3 +12,5 @@
 ### 📄 Resume
 
 &emsp;&emsp; This profile is selft sufficent to know about me 😜. But still if you need the profile copy, you can get [HERE!]()
+
+---
