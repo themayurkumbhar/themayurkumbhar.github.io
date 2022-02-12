@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Getting Started With GitHub Pages in Markdown!
 
 **Hello world**, this is my first blog post using **Markdown** and **GitHub Pages**.
