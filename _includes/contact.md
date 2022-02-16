@@ -7,7 +7,7 @@
 
 ✉️ [mayur.kumbhar@outlook.com](mailto:mayur.kumbhar@outlook.com) &emsp; 📱 [+91-9096591857](tel:+919096591857)
 
-## 📄 Resume
+### 📄 Resume
 
 &emsp;&emsp; This profile is selft sufficent to know about me 😜. But still if you need the profile copy, you can get [HERE!]()
 
