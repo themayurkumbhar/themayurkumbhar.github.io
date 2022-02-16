@@ -1,4 +1,8 @@
 # Mayur's Profile  :sunglasses:
 
-* Buidling portfolio with github-pages and markdown
-* theme: [jekyll-theme-slate](https://github.com/pages-themes/slate)
+- One page developer portfolio made with HTML and SS.
+- Minimal portfolio with dark theme.
+- Fonts: Roboto Mono
+- Icons: Fontawesome
+
+#### Forked from [minimalist-portfolio](https://github.com/giotsere/minimalist-portfolio)
