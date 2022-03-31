@@ -9,6 +9,6 @@
 
 ### 📄 Resume
 
-&emsp;&emsp; This profile is selft sufficent to know about me 😜. But still if you need the profile copy, you can get [HERE!]()
+&emsp;&emsp; This profile is selft sufficent to know about me 😜. But still if you need the profile copy, you can get [HERE!](https://drive.google.com/file/d/1GhZrgROrWVyiZyP7zFvkwD7QfVbgvApC/view?usp=sharing)
 
 ---
