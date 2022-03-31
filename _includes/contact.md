@@ -9,7 +9,7 @@
 
 ### 📄 Resume
 
-&emsp;&emsp; This profile is selft sufficent to know about me 😜. But still if you need the profile copy, you can get [HERE!]()
+&emsp;&emsp; This profile is selft sufficent to know about me 😜. But still if you need the profile copy, you can get [HERE!](https://drive.google.com/file/d/1GhZrgROrWVyiZyP7zFvkwD7QfVbgvApC/view?usp=sharing)
 
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fthemayurkumbhar.github.io%2F&label=views&countColor=%23263759)
