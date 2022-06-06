@@ -23,5 +23,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 
 > Quick understaning of markdown!
 
-### Creating repository structure
+### understanding different files in Repository
+
+* [index.md](./../index.md)
 
