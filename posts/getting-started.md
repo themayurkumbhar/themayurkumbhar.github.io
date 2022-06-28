@@ -55,7 +55,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 
 * [index.md](./../index.md) file looks like this:
 
-```
+```text
 
   ---
   layout: default
