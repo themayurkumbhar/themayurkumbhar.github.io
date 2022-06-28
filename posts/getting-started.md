@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Markdown Profile Page
+title: Create Portfolio Using Github & Markdown
 ---
 
 # Getting Started With GitHub Pages using Markdown! 🏁
@@ -26,6 +26,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 ### Repositroy Structure Layout 🧱
 
 ```text
+
 .
 ├── Readme.md
 ├── _config.yml
@@ -54,7 +55,8 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 
 * [index.md file] looks like this:
 
-```markdown
+```
+
   ---
   layout: default
   ---
@@ -82,6 +84,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 * [config file](../../_config.yml) looks like below:
 
   ```yaml
+  
   title: <Title of your website>
   description: <discription of your wesite>
   theme: jekyll-theme-slate #which theme you want to select for your website*
@@ -90,7 +93,8 @@ Markdown is most widely used for documentation purpose. Most of developers use t
     collections: false
   plugins:
     - jekyll-relative-links #enable your posts links relative path to website
-    - jekyll-default-layout #you can keep default or you can create new layout and add as layout here
+    - jekyll-default-layout #you can keep default or create new layout
+
   ```
 
 * You can select a theme from the list of jekyll themes [HERE](http://jekyllthemes.org/)
@@ -106,8 +110,10 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 * Example for [contact.md](../_includes/contact.md) file
 
 ```markdown
+
   ## 📇 [Connect with Me!](#contact)
-  ✉️ [mailme@mail.com](mailto:mayur.kumbhar@outlook.com) &emsp; 📱 [+91-1234567890](tel:+911234567890)
+  ✉️ [mailme@mail.com](mailto:mailme@mail.com) &emsp; 📱 [+91-1234567890](tel:+911234567890)
+  
 ```
 
 #### 4. [\_posts](./) -
@@ -119,7 +125,19 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 * Example for including blog file in [posts.md](../_includes/posts.md):
 
   ```markdown
-  ### [1. website title](../path/to/posts_file.html)
+  
+    ---
+    layout: default
+    title: Getting Started
+    ---
+
+    # Getting Started With GitHub Pages in Markdown!
+
+    **Hello world!**, This is blog post using **Markdown** and **GitHub Pages**.
+
+    I hope you like it!
+    Conetents of blog post goes here...
+  
   ```
   
 ### Setting up changes in github ⚙️
