@@ -55,23 +55,20 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 
 * [index.md](./../index.md) file looks like this:
 
-<code>
-    
-  --- <br>
-  layout: default<br>
-  ---<br><br>
+{% raw %}
+```text
+  --- 
+  layout: default #layout style
+  ---
 
-  {% include about-me.md %}<br><br>
+  {% include file1.md %}
 
-  {% include professional.md %}<br><br>
+  {% include file2.md %}
 
-  {% include education.md %}<br><br>
-
-  {% include contact.md %}<br><br>
-
-  {% include posts.md %}<br><br>
+  {% include file3.md %}
   
-</code>
+```
+{% endraw %}
 
 * Layout part defines which layout to use while rendering index file.
 * Syntax `{ % include filename.md % }` imports the files in your index file and expands the contents to fit in a single file.
