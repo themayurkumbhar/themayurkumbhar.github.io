@@ -53,7 +53,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 
 > 💡 We will discuss the multiple files approach in this post.
 
-* [index.md file] looks like this:
+* [index.md](./../index.md) file looks like this:
 
 ```
 
@@ -121,8 +121,18 @@ Markdown is most widely used for documentation purpose. Most of developers use t
   This **folder** contains all your blog posts which are separated with each new MarkDown file. Once the blog post file is created you need to include that in your [posts.md](../_includes/posts.md) file to publish on your website.
 
 * Always create a new file for each blog, include them only when ready to publish.
+    * [posts.md](../_includes/posts.md) file -
+
+    ```markdown
+        
+        ## Tech Blogs
+        
+        ### [1. How to Write Website like this? 🤩 ](../posts/getting-started.html)
+
+    ```
+
 * You can also include diagrams/images/videos/code blocks in your blog.
-* Example for including blog file in [posts.md](../_includes/posts.md):
+* Example for writing a blog file [getting-started.md](../posts/getting-started.md):
 
   ```markdown
   
