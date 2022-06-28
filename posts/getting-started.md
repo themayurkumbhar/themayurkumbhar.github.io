@@ -7,21 +7,21 @@ title: Markdown Profile Page
 
 # Getting Started With GitHub Pages using Markdown!
 
-If you reading this blog menas you want to create minimal portfolio or profile without thinking more around designing but should be more professional and small, compact & easy to implement without any setup, learning any new language. If you are the one who don't like to code around HTML tags, CSS files or JS. If you are backend enginner like me :) and want good profile page wihtout worring about the frontend language.
+If you reading this blog means you want to create minimal portfolio or profile without thinking more around designing but should be more professional and small, compact & easy to implement without any setup, learning any new language. If you are the one who don't like to code around HTML tags, CSS files or JS. If you are backend engineer like me :) and want good profile page without worrying about the frontend language.
 
 > You are always welcome to raise pull request to improve this blog.
 
-GitHub provides each user domain of its github username followed by `github.io` where your profile is hosted as a website. there are multiple ways you can create your portfolio. You can use any exisitng freamework, language, tools, forking existing repositories and updating as required. This post will focus on how can you write only your portfolio content using markdown and let github take care of rest.
+GitHub provides each user domain of its github username followed by `github.io` where your profile is hosted as a website. there are multiple ways you can create your portfolio. You can use any existing framework, language, tools, forking existing repositories and updating as required. This post will focus on how can you write only your portfolio content using markdown and let github take care of rest.
 
-Prerequisite: How to setup your repository to act as webiste?
+Prerequisite: [How to setup your repository to act as website?](https://github.com/themayurkumbhar/themayurkumbhar.github.io/edit/markdown-profile-page-post/posts/getting-started.md#setting-up-changes-in-github)
 
-Once you have basic reposioty setup ready you can follow along.
+Once you have basic repository setup ready you can follow along.
 
 ### Why to use markdown?
 
-Markdown is most widely used for documentation purpose. Most of developers use this as day to day work in documenting either APIs, WiKi or repositoy README.md files. This enables best practices and standard structure present in markdown to write portfolio in better format. Also developers are mastered in wiriting markdown (if you are not, strongly suggest to practice documentations using markdown).
+Markdown is most widely used for documentation purpose. Most of developers use this as day to day work in documenting either APIs, WiKi or repository README.md files. This enables best practices and standard structure present in markdown to write portfolio in better format. Also developers are mastered in writing markdown (if you are not, strongly suggest to practice documentations using markdown).
 
-> Quick understaning of markdown!
+> Quick understanding of [MarkDown](https://www.markdownguide.org/basic-syntax/)!
 
 # Let's Get Started..
 
@@ -110,3 +110,18 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 ### Setting up changes in github
 
   Once you are ready with your portfolio files, make sure then are commited and pushed to your github repository named `<your_github_username>.github.io`.
+  
+  Let's Now setup your special repository to act as website using github.
+  1. Goto `Settings` on your repository
+  
+  2. Select `Pages` section, which will show you `Github Pages` 
+
+  3. Now select dropdown `Source` and choose `master` branch to configure.
+  4. Wait for minute or two, you will get the link to your website
+  5. Boom! your website is ready!!!
+
+> Bonus Fact: You can include HTML/CSS tags in your MarkDown file to have more control over customizations! 😎
+
+---
+
+   If you face any issues, need more details/information you can [reach out to me](mailto:mayur.kumbhar@outlook.com) anytime! Keep Learning! Keep Exploring! ✌
