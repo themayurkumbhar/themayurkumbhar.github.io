@@ -5,7 +5,7 @@ title: Markdown Profile Page
 
 [DRAFT]
 
-# Getting Started With GitHub Pages using Markdown!
+# Getting Started With GitHub Pages using Markdown! 🏁
 
 If you reading this blog means you want to create minimal portfolio or profile without thinking more around designing but should be more professional and small, compact & easy to implement without any setup, learning any new language. If you are the one who don't like to code around HTML tags, CSS files or JS. If you are backend engineer like me :) and want good profile page without worrying about the frontend language.
 
@@ -17,15 +17,15 @@ Prerequisite: [How to setup your repository to act as website?](https://github.c
 
 Once you have basic repository setup ready you can follow along.
 
-## Why to use markdown?
+## Why to use markdown? 🤔
 
 Markdown is most widely used for documentation purpose. Most of developers use this as day to day work in documenting either APIs, WiKi or repository README.md files. This enables best practices and standard structure present in markdown to write portfolio in better format. Also developers are mastered in writing markdown (if you are not, strongly suggest to practice documentations using markdown).
 
-> Quick understanding of [MarkDown](https://www.markdownguide.org/basic-syntax/)!
+> 💡 Quick understanding of [MarkDown](https://www.markdownguide.org/basic-syntax/)!
 
 ## Let's Get Started -
 
-### Repositroy Structure Layout
+### Repositroy Structure Layout 🧱
 
 ```text
 .
@@ -43,16 +43,16 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 
 ```
 
-### Understanding different files in Repository
+### Understanding different files in Repository 📚
 
 #### 1. [index.md](./../index.md) -
 
-  This is the main file which used as root for website. when someone hits your profile url this is first page that gets loaded which also called as "Landing Page"
+  This is the main file which used as root for the website. When someone hits your profile url this is the first page that gets loaded, which also called as "Landing Page"
 
-* You can have single page website where you can add all the profile data in same file.
-* Or you can chose the seprate the files in multilple folders and update specific sections as and when required.
+* You can have a single page website where you can add all the profile data in the same file.
+* Or you can choose the separate the files in multiple folders and update specific sections as and when required.
 
-> We will disscuss the multiple files approach in this post.
+> 💡 We will discuss the multiple files approach in this post.
 
 * [index.md file] looks like this:
 
@@ -74,12 +74,12 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 ```
 
 * Layout part defines which layout to use while rendering index file.
-* Syntax `{% include filename.md %}` imports the files in your index file and expands contents to fit in single file.
+* Syntax `{% include filename.md %}` imports the files in your index file and expands the contents to fit in a single file.
   * github before generating website first imports all the contents and then renders the files conetent as HTML/CSS.
 
 #### 2. [\_config.yml](../../_config.yml) -
 
-  This file used to configure the configuration parameters which can be used by the github website genrator [Jekyll](https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml). We will see the some basic requierd configurations which will enable us generate the porfolio website.
+  This file used to configure the configuration parameters which can be used by the github website generator [Jekyll](https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml). We will see the some basic required configurations which will enable us to generate the portfolio website.
 
 * [config file](../../_config.yml) looks like below:
 
@@ -95,17 +95,17 @@ Markdown is most widely used for documentation purpose. Most of developers use t
     - jekyll-default-layout #you can keep default or you can create new layout and add as layout here
   ```
 
-* you can select theme from the list of jekyll themes [HERE](http://jekyllthemes.org/)
+* You can select a theme from the list of jekyll themes [HERE](http://jekyllthemes.org/)
 
-> this website is generated using theme called [jekyll-theme-slate](https://github.com/pages-themes/slate)
+> 💡 This website is generated using a theme called [jekyll-theme-slate](https://github.com/pages-themes/slate)
 
 #### 3. [\_includes](../_includes) -
 
-  This **folder** contains all the seprate MarkDown files which are part of portfolio and are broken down to specific contnets of file, so they can be modifed independently.
+  This **folder** contains all the separate MarkDown files which are part of the portfolios and are broken down to specific contents of file, so they can be modified independently.
 
-* includes can contain any kind of data files which are logically seprated from each other with contents.
-* you can distribute your contents as required in multiple files and then include them as and when required in different files/ index file.
-* example for [contact.md](../_includes/contact.md) file
+* Includes can contain any kind of data files which are logically separated from each other contents.
+* You can distribute your contents as required in multiple files and then include them as and when required in different files/ index file.
+* Example for [contact.md](../_includes/contact.md) file
 
 ```markdown
   ## 📇 [Connect with Me!](#contact)
@@ -114,29 +114,29 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 
 #### 4. [\_posts](./) -
 
-  This **folder** contains all your blog posts which are seprated with each new MarkDown file. Once the blog post file is created you need to include that in you [posts.md](../_includes/posts.md) file to publish on your website.
+  This **folder** contains all your blog posts which are separated with each new MarkDown file. Once the blog post file is created you need to include that in your [posts.md](../_includes/posts.md) file to publish on your website.
 
-* Always create new file for each blog, include them only when ready to publish.
-* you can also include diagrams/images/videos/code blocks in your blog.
-* example for including blog file in [posts.md](../_includes/posts.md):
+* Always create a new file for each blog, include them only when ready to publish.
+* You can also include diagrams/images/videos/code blocks in your blog.
+* Example for including blog file in [posts.md](../_includes/posts.md):
 
   ```markdown
   ### [1. website title](../path/to/posts_file.html)
   ```
   
-### Setting up changes in github
+### Setting up changes in github ⚙️
 
-  Once you are ready with your portfolio files, make sure then are commited and pushed to your github repository named `<your_github_username>.github.io`.
+  Once you are ready with your portfolio files, make sure then are committed and pushed to your github repository named `<your_github_username>.github.io`.
   
-  Let's Now setup your special repository to act as website using github.
+  Let's now set up your special repository to act as a website using github.
 
-  1. Goto `Settings` on your repository
+  1. Go to `Settings` on your repository
   2. Select `Pages` section, which will show you `Github Pages` 
-  3. Now select dropdown `Source` and choose `master` branch to configure & hit `save`.
-  4. Wait for minute or two, you will get the link to your website
-  5. Boom! your website is ready!!!
+  3. Now select drop-down `Source` and choose `master` branch to configure & hit `save`.
+  4. Wait for a minute or two, you will get the link to your website
+  5. Boom! Your website is ready!!! 🚀
 
-> Bonus Fact: You can include HTML/CSS tags in your MarkDown file to have more control over customizations! 😎
+> 💡 Bonus Fact: You can include HTML/CSS tags in your MarkDown file to have more control over customizations! 😎
 
 ---
 
