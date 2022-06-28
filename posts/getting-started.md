@@ -121,13 +121,13 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 * Always create a new file for each blog, include them only when ready to publish.
     * [posts.md](../_includes/posts.md) file -
 
-    ```markdown
-        
-        ## Tech Blogs
-        
-        ### [1. How to Write Website like this? 🤩 ](../posts/getting-started.html)
+```markdown
 
-    ```
+    ## Tech Blogs
+
+    ### [1. How to Write Website like this? 🤩 ](../posts/getting-started.html)
+
+```
 
 * You can also include diagrams/images/videos/code blocks in your blog.
 * Example for writing a blog file [getting-started.md](../posts/getting-started.md):
