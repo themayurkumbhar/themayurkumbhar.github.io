@@ -5,11 +5,11 @@ title: Create Portfolio Using Github & Markdown
 
 # Getting Started With GitHub Pages using Markdown! 🏁
 
-If you reading this blog means you want to create minimal portfolio or profile without thinking more around designing but should be more professional and small, compact & easy to implement without any setup, learning any new language. If you are the one who don't like to code around HTML tags, CSS files or JS. If you are backend engineer like me :) and want good profile page without worrying about the frontend language.
+If you reading this blog means you want to create minimal portfolio or profile without thinking more around designing but should be more professional and small, compact & easy to implement without any setup, learning any new language. If you are the one who don't like to code around HTML tags, CSS files or JS. If you are backend engineer like me 😄 and want good profile page without worrying about the frontend language.
 
 > You are always welcome to raise pull request to improve this blog.
 
-GitHub provides each user domain of its github username followed by `github.io` where your profile is hosted as a website. there are multiple ways you can create your portfolio. You can use any existing framework, language, tools, forking existing repositories and updating as required. This post will focus on how can you write only your portfolio content using markdown and let github take care of rest.
+GitHub provides each user domain of its github username followed by `github.io` where your profile is hosted as a website. There are multiple ways you can create your portfolio. You can use any existing framework, language, tools, forking existing repositories and updating as required. This post will focus on how can you write only your portfolio content using markdown and let github take care of rest.
 
 Prerequisite: [How to setup your repository to act as website?](https://github.com/themayurkumbhar/themayurkumbhar.github.io/edit/markdown-profile-page-post/posts/getting-started.md#setting-up-changes-in-github)
 
@@ -71,7 +71,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 {% endraw %}
 
 * Layout part defines which layout to use while rendering index file.
-* Syntax `{ % include filename.md % }` imports the files in your index file and expands the contents to fit in a single file.
+* Syntax {% raw %}`{% include filename.md %}`{% endraw %} imports the files in your index file and expands the contents to fit in a single file.
   * github before generating website first imports all the contents and then renders the files conetent as HTML/CSS.
 
 #### 2. [\_config.yml](../../_config.yml) -
@@ -109,7 +109,8 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 ```markdown
 
   ## 📇 [Connect with Me!](#contact)
-  ✉️ [mailme@mail.com](mailto:mailme@mail.com) &emsp; 📱 [+91-1234567890](tel:+911234567890)
+  ✉️ [mailme@mail.com](mailto:mailme@mail.com)
+  📱 [+91-1234567890](tel:+911234567890)
   
 ```
 
