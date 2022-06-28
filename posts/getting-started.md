@@ -80,7 +80,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 
 * [config file](../../_config.yml) looks like below:
 
-  ```yaml
+```yaml
   
   title: <Title of your website>
   description: <discription of your wesite>
@@ -92,19 +92,19 @@ Markdown is most widely used for documentation purpose. Most of developers use t
     - jekyll-relative-links #enable your posts links relative path to website
     - jekyll-default-layout #you can keep default or create new layout
 
-  ```
+```
 
 * You can select a theme from the list of jekyll themes [HERE](http://jekyllthemes.org/)
 
 > 💡 This website is generated using a theme called [jekyll-theme-slate](https://github.com/pages-themes/slate)
 
-#### 3. [\_includes](../_includes) -
+#### 3. [\_includes](https://github.com/themayurkumbhar/themayurkumbhar.github.io/tree/master/_includes) -
 
   This **folder** contains all the separate MarkDown files which are part of the portfolios and are broken down to specific contents of file, so they can be modified independently.
 
 * Includes can contain any kind of data files which are logically separated from each other contents.
-* You can distribute your contents as required in multiple files and then include them as and when required in different files/ index file.
-* Example for [contact.md](../_includes/contact.md) file
+* You can distribute your contents as required in multiple files and then include them as and when required in different files.
+* Example take [contact.md](https://github.com/themayurkumbhar/themayurkumbhar.github.io/tree/master/_includes/contact.md) file.
 
 ```markdown
 
@@ -113,26 +113,22 @@ Markdown is most widely used for documentation purpose. Most of developers use t
   📱 [+91-1234567890](tel:+911234567890)
   
 ```
+* Then you can include this in your root [index.md](https://github.com/themayurkumbhar/themayurkumbhar.github.io/blob/master/index.md?plain=1) file.
 
-#### 4. [posts](./) -
+{% raw %}
+```markdown
+{% include contact.md %}
+```
+{% endraw %}
 
-  This **folder** contains all your blog posts which are separated with each new MarkDown file. Once the blog post file is created you need to include that in your [posts.md](../_includes/posts.md) file to publish on your website.
+#### 4. [posts](https://github.com/themayurkumbhar/themayurkumbhar.github.io/blob/master/_includes/posts.md?plain=1) -
+
+  This **folder** contains all your blog posts which are separated with each new MarkDown file. Once the blog post file is created you need to include that in your [posts.md](https://github.com/themayurkumbhar/themayurkumbhar.github.io/blob/master/_includes/posts.md?plain=1) file to publish on your blogs.
 
 * Always create a new file for each blog, include them only when ready to publish.
-    * [posts.md](../_includes/posts.md) file -
+* Example take a blog file [getting-started.md](https://github.com/themayurkumbhar/themayurkumbhar.github.io/blob/master/posts/getting-started.md?plain=1):
 
 ```markdown
-
-    ## Tech Blogs
-
-    ### [1. How to Write Website like this? 🤩 ](../posts/getting-started.html)
-
-```
-
-* You can also include diagrams/images/videos/code blocks in your blog.
-* Example for writing a blog file [getting-started.md](../posts/getting-started.md):
-
-  ```markdown
   
     ---
     layout: default
@@ -146,7 +142,20 @@ Markdown is most widely used for documentation purpose. Most of developers use t
     I hope you like it!
     Conetents of blog post goes here...
   
-  ```
+```
+* Now consider our root blogs in [posts.md](https://github.com/themayurkumbhar/themayurkumbhar.github.io/blob/master/_includes/posts.md?plain=1) file -
+    * We will include `getting-started.md` in `posts.md` file so it can be rendered in blogs section of your portfolio.
+
+```markdown
+
+  ## Tech Blogs
+
+  ### [1. How to Write Website like this?](/link/to/posts/getting-started.html)
+
+```
+
+> 💡 You can also include diagrams/images/videos/code blocks in your blog.
+
   
 ### Setting up changes in github ⚙️
 
