@@ -72,7 +72,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 ```
 
 * Layout part defines which layout to use while rendering index file.
-* Syntax `{% include filename.md %}` imports the files in your index file and expands the contents to fit in a single file.
+* Syntax `{ % include filename.md % }` imports the files in your index file and expands the contents to fit in a single file.
   * github before generating website first imports all the contents and then renders the files conetent as HTML/CSS.
 
 #### 2. [\_config.yml](../../_config.yml) -
