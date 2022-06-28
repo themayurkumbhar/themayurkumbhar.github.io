@@ -3,8 +3,6 @@ layout: default
 title: Markdown Profile Page
 ---
 
-[DRAFT]
-
 # Getting Started With GitHub Pages using Markdown! 🏁
 
 If you reading this blog means you want to create minimal portfolio or profile without thinking more around designing but should be more professional and small, compact & easy to implement without any setup, learning any new language. If you are the one who don't like to code around HTML tags, CSS files or JS. If you are backend engineer like me :) and want good profile page without worrying about the frontend language.
