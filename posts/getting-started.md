@@ -55,7 +55,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
 
 * [index.md](./../index.md) file looks like this:
 
-```text
+```yaml
 
   ---
   layout: default
@@ -116,7 +116,7 @@ Markdown is most widely used for documentation purpose. Most of developers use t
   
 ```
 
-#### 4. [\_posts](./) -
+#### 4. [posts](./) -
 
   This **folder** contains all your blog posts which are separated with each new MarkDown file. Once the blog post file is created you need to include that in your [posts.md](../_includes/posts.md) file to publish on your website.
 
