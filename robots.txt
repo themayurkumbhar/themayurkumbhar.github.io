@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://themayurkumbhar.github.io/sitemap.xml
