@@ -1,9 +1,0 @@
-title: Mayur Kumbhar
-description: Software Developer 💻
-theme: jekyll-theme-slate
-relative_links:
-  enabled: true
-  collections: false
-plugins:
-  - jekyll-relative-links
-  - jekyll-default-layout
