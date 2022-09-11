@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on themayurkumbhar</title>
-    <link>https://themayurkumbhar.github.io/post/</link>
-    <description>Recent content in Posts on themayurkumbhar</description>
+    <title>protobuf on themayurkumbhar</title>
+    <link>https://themayurkumbhar.github.io/tags/protobuf/</link>
+    <description>Recent content in protobuf on themayurkumbhar</description>
     <image>
       <url>https://themayurkumbhar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://themayurkumbhar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Sep 2022 18:27:23 +0530</lastBuildDate><atom:link href="https://themayurkumbhar.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Sep 2022 18:27:23 +0530</lastBuildDate><atom:link href="https://themayurkumbhar.github.io/tags/protobuf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linting Proto Files With Buf</title>
       <link>https://themayurkumbhar.github.io/post/linting-proto-files-with-buf/</link>
       <pubDate>Sun, 11 Sep 2022 18:27:23 +0530</pubDate>
       
       <guid>https://themayurkumbhar.github.io/post/linting-proto-files-with-buf/</guid>
-      <description>Enthusiastic Technology explorer! Love&amp;#39;s Biking, Hiking &amp;amp; Eating Delicious Food!</description>
-    </item>
-    
-    <item>
-      <title>Getting Started With Github Static Pages</title>
-      <link>https://themayurkumbhar.github.io/post/getting-started-with-github-static-pages/</link>
-      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://themayurkumbhar.github.io/post/getting-started-with-github-static-pages/</guid>
       <description>Enthusiastic Technology explorer! Love&amp;#39;s Biking, Hiking &amp;amp; Eating Delicious Food!</description>
     </item>
     
