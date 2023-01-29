@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://themayurkumbhar.github.io/post/</loc>
+    <lastmod>2023-01-29T22:21:34+05:30</lastmod>
+  </url><url>
+    <loc>https://themayurkumbhar.github.io/tags/protocol/</loc>
+    <lastmod>2023-01-29T22:21:34+05:30</lastmod>
+  </url><url>
+    <loc>https://themayurkumbhar.github.io/tags/</loc>
+    <lastmod>2023-01-29T22:21:34+05:30</lastmod>
+  </url><url>
+    <loc>https://themayurkumbhar.github.io/</loc>
+    <lastmod>2023-01-29T22:21:34+05:30</lastmod>
+  </url><url>
+    <loc>https://themayurkumbhar.github.io/tags/tls/</loc>
+    <lastmod>2023-01-29T22:21:34+05:30</lastmod>
+  </url><url>
+    <loc>https://themayurkumbhar.github.io/post/tls-transport-layer-security/</loc>
+    <lastmod>2023-01-29T22:21:34+05:30</lastmod>
+  </url><url>
+    <loc>https://themayurkumbhar.github.io/tags/transport-layer-security/</loc>
+    <lastmod>2023-01-29T22:21:34+05:30</lastmod>
+  </url><url>
+    <loc>https://themayurkumbhar.github.io/tags/web-security/</loc>
+    <lastmod>2023-01-29T22:21:34+05:30</lastmod>
+  </url><url>
     <loc>https://themayurkumbhar.github.io/tags/buf/</loc>
     <lastmod>2022-09-11T18:27:23+05:30</lastmod>
   </url><url>
@@ -17,16 +41,7 @@
     <loc>https://themayurkumbhar.github.io/post/linting-proto-files-with-buf/</loc>
     <lastmod>2022-09-11T18:27:23+05:30</lastmod>
   </url><url>
-    <loc>https://themayurkumbhar.github.io/post/</loc>
-    <lastmod>2022-09-11T18:27:23+05:30</lastmod>
-  </url><url>
     <loc>https://themayurkumbhar.github.io/tags/protobuf/</loc>
-    <lastmod>2022-09-11T18:27:23+05:30</lastmod>
-  </url><url>
-    <loc>https://themayurkumbhar.github.io/tags/</loc>
-    <lastmod>2022-09-11T18:27:23+05:30</lastmod>
-  </url><url>
-    <loc>https://themayurkumbhar.github.io/</loc>
     <lastmod>2022-09-11T18:27:23+05:30</lastmod>
   </url><url>
     <loc>https://themayurkumbhar.github.io/post/getting-started-with-github-static-pages/</loc>
