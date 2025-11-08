@@ -9,7 +9,16 @@
       <link>https://themayurkumbhar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 29 Jan 2023 22:21:34 +0530</lastBuildDate><atom:link href="https://themayurkumbhar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://themayurkumbhar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rust 101: The Fundamentals</title>
+      <link>https://themayurkumbhar.github.io/post/rust-101-the-fundamentals/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://themayurkumbhar.github.io/post/rust-101-the-fundamentals/</guid>
+      <description>Enthusiastic Technology explorer! Love&amp;#39;s Biking, Hiking &amp;amp; Eating Delicious Food!</description>
+    </item>
+    
     <item>
       <title>TLS Transport Layer Security</title>
       <link>https://themayurkumbhar.github.io/post/tls-transport-layer-security/</link>
